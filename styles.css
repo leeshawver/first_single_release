@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'Berlin Sans FB', sans-serif;
+  background: #f0f0f0;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.background-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('cover.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(12px) brightness(0.6);
+  z-index: -1;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.album-art img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .album-art img {
+    max-width: 90%;
+  }
+}
+
+.album-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.album-info h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.album-info h2 {
+  font-size: 1.2em;
+  font-family: "Century Gothic", sans serif;
+  color: #444;
+  margin-bottom: 1.2em;
+}
+
+.audio-player ul {
+  list-style: none;
+  padding: 0;
+}
+
+.audio-player li {
+  margin-bottom: 15px;
+}
+
+.platform-links {
+  margin-top: 20px;
+}
+
+.platform-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0056cc;
+  font-weight: bold;
+}
+
+.platform-links a:hover {
+  text-decoration: underline;
+}
+
+.platform-links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.platform-links a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.platform-badge {
+  height: 40px;
+  transition: transform 0.2s ease;
+}
+
+.platform-badge:hover {
+  transform: scale(1.05);
+}
