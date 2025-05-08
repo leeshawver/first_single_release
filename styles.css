@@ -63,11 +63,13 @@ body {
   margin-bottom: 1.2em;
 }
 
-.album-info h3 {
-  font-size: 0.6em;
-  font-family: "Arial", sans serif;
-  color: #444;
-  margin-bottom: 1.2em;
+.release-note {
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
+  color: #333;
+  margin-top: 15px;
+  text-align: center;
 }
 
 .audio-player ul {
