@@ -63,6 +63,13 @@ body {
   margin-bottom: 1.2em;
 }
 
+.album-info h3 {
+  font-size: 0.6em;
+  font-family: "Calibri", sans serif;
+  color: #444;
+  margin-bottom: 1.2em;
+}
+
 .audio-player ul {
   list-style: none;
   padding: 0;
