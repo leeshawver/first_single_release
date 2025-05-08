@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Berlin Sans FB', sans-serif;
+  font-family: 'Berlin Sans FB', "Avenir Next Rounded", "Helvetica Rounded", sans-serif;
   background: #f0f0f0;
   color: #333;
   overflow-x: hidden;
@@ -58,14 +58,14 @@ body {
 
 .album-info h2 {
   font-size: 1.2em;
-  font-family: "Century Gothic", sans serif;
+  font-family: "Century Gothic", "Avenir", "Futura", sans serif;
   color: #444;
   margin-bottom: 1.2em;
 }
 
 .release-note {
   font-style: italic;
-  font-family: Arial, sans-serif;
+  font-family: "Courier New", "Courier", "Menlo", sans-serif;
   font-size: 0.8em;
   color: #333;
   margin-top: 15px;
